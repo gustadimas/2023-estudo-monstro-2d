@@ -9,7 +9,6 @@ public class CameraController : MonoBehaviour
     [SerializeField] Vector2 followOffset;
     [SerializeField] float speed = 3f;
     Vector2 limit;
-    float dirX;
     Rigidbody2D rb;
 
     private void Start()
